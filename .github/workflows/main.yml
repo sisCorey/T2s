@@ -8,10 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v1
+    - name: pwd
+      run: |
+        pwd
+        cd ..
+        pwd
+        whoami
+        export
     - name: Run
       run: python go-dutch.py 
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
