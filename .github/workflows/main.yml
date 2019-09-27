@@ -13,6 +13,16 @@ jobs:
         pwd
         cd ..
         pwd
+        ls -l 
+        cd ..
+        pwd
+        ls -l 
+        cd ..
+        pwd
+        ls -l 
+        cd ..
+        pwd
+        ls -l 
         whoami
         export
     - name: Run
